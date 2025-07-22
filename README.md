@@ -36,7 +36,7 @@ npm serve
 
 For more information, see the [Modern.js documentation](https://modernjs.dev/en).
 
-## Deployment
+## Deployment to Github Codespaces
 
 ### Configuring `dev.assetPrefix` for GitHub Codespaces
 
@@ -69,10 +69,11 @@ export default {
 **Note:**
 If you move or restart your Codespace, the domain may change. Always update `dev.assetPrefix` to match your current Codespaces URL.
 
+
 ### Module Federation: [Remotes Configuration](https://modernjs.dev/guides/topic-detail/module-federation/usage.html#use-modules-in-consumer)
 
 Now, modify the consumers code to use the modules exported by producer
-Under module-federation.config.ts file add remotes array
+Under `module-federation.config.ts` file add remotes array
 
 #### Example
 
