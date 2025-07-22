@@ -1,9 +1,9 @@
-import { Outlet } from '@modern-js/runtime/router';
+import PageLayout from './PageLayout';
 
 export default function Layout() {
   return (
-    <div>
-      <Outlet />
+    <div className="container-box">
+      <PageLayout />
     </div>
   );
 }

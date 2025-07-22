@@ -19,11 +19,9 @@ p {
 .container-box {
   min-height: 100vh;
   max-width: 100%;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 10px;
 }
 
 main {
@@ -113,4 +111,33 @@ main {
   width: 1.3rem;
   margin-left: 0.5rem;
   margin-top: 3px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 16px auto;
+  min-height: 75vh;
+}
+
+.animate-text {
+  animation: marquee-left 8s linear infinite;
+}
+
+.header-links {
+  display: flex;
+  justify-content: end;
+  gap: 1rem;
+}
+
+@keyframes marquee-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
