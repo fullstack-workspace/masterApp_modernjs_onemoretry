@@ -12,7 +12,7 @@ export default createModuleFederationConfig({
     // loginRemote: `loginRemote@https://${remoteLoginURL}-${remoteLoginPort}.app.github.dev/static/mf-manifest.json`,
 
     // Vercel specific login remote url
-    loginRemote: `loginRemote@${remoteLoginURL}/static/mf-manifest.json`,
+    loginRemote: `loginRemote@https://${remoteLoginURL}/static/mf-manifest.json`,
   },
   shared: {
     react: { singleton: true },
