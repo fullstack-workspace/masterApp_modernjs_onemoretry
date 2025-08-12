@@ -1,5 +1,5 @@
-import React, { useState, Suspense } from 'react';
 import { Button } from 'loginRemote/Button';
+import React, { useState, Suspense } from 'react';
 
 const Index = (): JSX.Element => {
   return (
