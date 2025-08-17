@@ -31,3 +31,5 @@ log/
 modern.config.local.*
 
 .env
+
+biome.json
